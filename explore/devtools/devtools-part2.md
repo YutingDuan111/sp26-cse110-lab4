@@ -1,0 +1,2 @@
+1. num1 and num2 are strings, so calculateSum() can't apply the numerical operation to them, and return a string '23'
+2. I fixed it by casting num1 and num2 from string to Number. ie. Number(num1). So calculateSum function is able to add them correctly.
